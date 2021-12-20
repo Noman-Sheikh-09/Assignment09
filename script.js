@@ -26,3 +26,12 @@
 
 // 4. Write a js program to find maximum and minimum element in an array.
 // var numbers = [10,2,3,14,15,6,37,8,9]
+
+
+// 5. Write a js program to find second largest element in an array.
+
+var numbers = [10,2,3,14,15,6,37,8,9]
+for (let numbers = 0; numbers < numbers.length; index++) {
+    
+}
+console.log(numbers);
