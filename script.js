@@ -83,4 +83,25 @@
 
 // 8. Write a js program to copy all elements from an array to another array.
 
-var numbers = [10,2,3,14,15,6,37,8,9]
+// var numbers = [10,2,3,14,15,6,37,8,9]
+// console.log("First Array",numbers);
+// var copyArray = numbers.map(function(x){
+//     return x
+// })
+// console.log("Copy Array",copyArray);
+
+
+// 9. Write a js program to insert an element in an array.
+// var numbers = [10,2,6,4,9];
+// numbers.splice(3,1,3)
+// console.log(numbers);
+
+// 10. Write a js program to delete an element from an array at specified position.
+
+// var num = [10,2,6,4,9];
+// delete num[0]
+// console.log(num);
+
+// 11. Write a js program to count frequency of each element in an array.
+
+// 12. Write a js program to print all unique elements in the array.
