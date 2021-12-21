@@ -64,4 +64,23 @@
 
 // 6. Write a js program to count total number of even and odd elements in an array.
 
+// var numbers = [10,2,3,14,15,6,37,8,9]
+// for (let i = 0; i <= 8; i++) {
+//     if (i / 2 == 0) {
+// console.log("Even Numbers is", numbers);
+//     }
+    
+// }
+
+
+// 7. Write a js program to count total number of negative elements in an array.
+
+// var ary = [1,2,4,3,-3,2,-5,-3,-2,-7]
+// var negNumber = ary.filter(function(x){
+//     return x < 0
+// })
+// console.log("Negative Numbers is", negNumber);
+
+// 8. Write a js program to copy all elements from an array to another array.
+
 var numbers = [10,2,3,14,15,6,37,8,9]
