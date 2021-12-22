@@ -121,3 +121,14 @@
 // });
 // console.log(uniqueElements);
 
+// 13. Write a js program to count total number of duplicate elements in an array.
+// var elements = [1,10,2,2,2,2,2,4,4,5,55,7,7,]
+// var duplicate = []
+// for (let i = 0; i < elements.length; i++) {
+//   if (duplicate.indexOf(elements[i]) === -1) {
+//       console.log(elements[i]);
+//   }   
+// }
+// 14. Write a js program to delete all duplicate elements from an array.
+
+var elements = [1,10,2,2,4,4,5,55,7,7,]
