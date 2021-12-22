@@ -131,4 +131,24 @@
 // }
 // 14. Write a js program to delete all duplicate elements from an array.
 
-var elements = [1,10,2,2,4,4,5,55,7,7,]
+// 15. Write a js program to merge two array to third array
+// var ary1 = ["I Love"];
+// var ary2 = [" pakistan"];
+// var ary3 = [ary1 + ary2]  //By Catination
+// console.log(ary3);
+
+// 16. Write a js program to find reverse of an array.
+// var ary = [1,2,3,4,5,6,7,8,9];
+// ary.reverse();
+// console.log("Reverse order", ary);
+
+// 17. Write a js program to put even and odd elements of array in two separate array.
+              
+                      //Opar Wala b rehta hai abi
+
+// 18. Write a js program to search an element in an array.
+var ary = [1,2,3,4,5,6,7,8,9];
+var b = ary.find(function(x){
+    return ary > 5;
+})
+console.log(ary);
