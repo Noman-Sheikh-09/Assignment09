@@ -55,7 +55,13 @@
 
 
 // 4. Write a js program to find maximum and minimum element in an array.
-// var numbers = [10,2,3,14,15,6,37,8,9]
+
+// var numbers = [10,1,2,3,14,15,6,37,8,1,9];
+// numbers.sort(function(x,y){
+// return x-y
+// })
+// console.log(numbers[0]);               // For  Minimum
+// console.log(numbers[numbers.length-1]);  //For Maximum
 
 
 // 5. Write a js program to find second largest element in an array.
@@ -104,4 +110,14 @@
 
 // 11. Write a js program to count frequency of each element in an array.
 
+
+
 // 12. Write a js program to print all unique elements in the array.
+
+// var elements = [1,1,1,2,2,2,4,4,4,5,5,5];
+// console.log(elements);
+// var uniqueElements = elements.filter(function(currentValue, index , arr){
+// return elements.indexOf(currentValue) === index;
+// });
+// console.log(uniqueElements);
+
