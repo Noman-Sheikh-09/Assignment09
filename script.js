@@ -1,6 +1,6 @@
 // 1. Write a js program to read and print elements of array.
 // 2. Write a js program to print all negative elements in an array.
-// 3. Write a js program to find sum of all array elements. 
+// 3. Write a js program to find sum of all array elements.
 // 4. Write a js program to find maximum and minimum element in an array.
 // 5. Write a js program to find second largest element in an array.
 // 6. Write a js program to count total number of even and odd elements in an array.
@@ -47,7 +47,7 @@
 // }
 // console.log("Negative Number is",neg);
 
-// 3. Write a js program to find sum of all array elements. 
+// 3. Write a js program to find sum of all array elements.
 
 // var numbers = [1,2,3,4,5,6,7,8,9]
 // let sum = 0;
@@ -74,13 +74,6 @@
 
 // 6. Write a js program to count total number of even and odd elements in an array.
 
-// var numbers = [10,2,3,14,15,6,37,8,9]
-// for (let i = 0; i <= 8; i++) {
-//     if (i / 2 == 0) {
-// console.log("Even Numbers is", numbers);
-//     }
-
-// }
 
 
 // 7. Write a js program to count total number of negative elements in an array.
@@ -131,7 +124,7 @@
 // for (let i = 0; i < elements.length; i++) {
 //   if (duplicate.indexOf(elements[i]) === -1) {
 //       console.log(elements[i]);
-//   }   
+//   }
 // }
 // 14. Write a js program to delete all duplicate elements from an array.
 
@@ -178,3 +171,31 @@
 // var ary = [2,4,3,6,5,7,2,1,10]
 // ary.sort(function(a, b){return a - b})
 // console.log(ary);
+
+// 20. Write a js program to sort even and odd elements of array separately.
+
+
+
+// 23. Write a js program to print day of week name using switch case.
+// var days = 0
+// switch (days) {
+//     case 0:
+//         console.log("Sunday");
+//     case 1:
+//         console.log("Monday");
+//     case 2:
+//         console.log("Tuesday");
+//     case 3:
+//         console.log("Wednesday");
+//     case 4:
+//         console.log("Thursday");
+//     case 5:
+//         console.log("Friday");
+//     case 6:
+//         console.log("Saturday");
+//         default:
+//             break;
+//     }
+
+// 24. Write a js program print total number of days in a month using switch case.
+
