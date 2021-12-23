@@ -28,6 +28,10 @@
 // 28. Write a js program to check whether a number is positive, negative or zero using switch case.
 // 29. Write a js program to find roots of a quadratic equation using switch case.
 // 30. Write a js program to create Simple Calculator using switch case.
+
+//Solution
+
+
 // 1. Write a js program to read and print elements of array.
 
 // var numbers = [1,2,3,4,5,6,7,8,9]
@@ -75,7 +79,7 @@
 //     if (i / 2 == 0) {
 // console.log("Even Numbers is", numbers);
 //     }
-    
+
 // }
 
 
@@ -143,12 +147,34 @@
 // console.log("Reverse order", ary);
 
 // 17. Write a js program to put even and odd elements of array in two separate array.
-              
-                      //Opar Wala b rehta hai abi
+
+//Opar Wala b rehta hai abi
 
 // 18. Write a js program to search an element in an array.
-var ary = [1,2,3,4,5,6,7,8,9];
-var b = ary.find(function(x){
-    return ary > 5;
-})
-console.log(ary);
+// var ary = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+
+// 19. Write a js program to sort array elements in ascending or descending order.
+// For String
+//Ascending order
+// var ary = ["mango" , "apple", "bnana", "orange"];
+// ary.sort();
+// console.log(ary);
+
+//Descendign order
+// var ary = ["mango" , "apple", "bnana", "orange"];
+// ary.sort();
+// ary.reverse();
+// console.log(ary)
+
+// For Numeric Values
+// Ascending order
+
+// var ary = [2,4,3,6,5,7,2,1,10]
+// ary.sort(function(a, b){return a - b})
+// console.log(ary);
+
+// Descending order
+// var ary = [2,4,3,6,5,7,2,1,10]
+// ary.sort(function(a, b){return a - b})
+// console.log(ary);
