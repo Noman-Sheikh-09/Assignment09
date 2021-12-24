@@ -124,14 +124,24 @@
 // console.log(num);
 
 // 11. Write a js program to count frequency of each element in an array.
+//  num=[1,1,1,2,2,2,3,3,3]
+// var a=0;
+// var b=0;var
+// for(let i=0;i<9;i++){
+//     num[a]
+//     a++
+//     if (num[0]=num[a]) {
+//         b++
+//     }
+    
+// }
 
-
-
+// console.log(b);
 // 12. Write a js program to print all unique elements in the array.
 
 // var elements = [1,1,1,2,2,2,4,4,4,5,5,5];
 // console.log(elements);
-// var uniqueElements = elements.filter(function(currentValue, index , arr){
+// var uniqueElements = elements.filter(function(currentValue,index){
 // return elements.indexOf(currentValue) === index;
 // });
 // console.log(uniqueElements);
@@ -195,23 +205,34 @@
 
 
 // 23. Write a js program to print day of week name using switch case.
-// var days = 0
+// var days = parseInt(prompt("Enter your Number"))
 // switch (days) {
 //     case 0:
 //         console.log("Sunday");
+//         break;
+
 //     case 1:
+        
 //         console.log("Monday");
+//         break;
 //     case 2:
+        
 //         console.log("Tuesday");
+//         break;
 //     case 3:
 //         console.log("Wednesday");
+//         break;
 //     case 4:
 //         console.log("Thursday");
+//         break;
 //     case 5:
 //         console.log("Friday");
+//         break;
 //     case 6:
 //         console.log("Saturday");
+//         break;
 //         default:
+//             console.log("invalid value");
 //             break;
 //     }
 
