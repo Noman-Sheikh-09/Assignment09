@@ -54,8 +54,9 @@
 // numbers.forEach(sumAll)
 // function sumAll(item){
 //     sum += item;
-//    console.log(sum);
+
 // }
+// console.log(sum);
 
 
 // 4. Write a js program to find maximum and minimum element in an array.
@@ -64,18 +65,35 @@
 // numbers.sort(function(x,y){
 // return x-y
 // })
-// console.log(numbers[0]);               // For  Minimum
-// console.log(numbers[numbers.length-1]);  //For Maximum
+// console.log("Minimum is",numbers[0]);               // For  Minimum
+// console.log("Maximum is",numbers[numbers.length-1]);  //For Maximum
 
 
 // 5. Write a js program to find second largest element in an array.
 
-// var numbers = [10,2,3,14,15,6,37,8,9]
+// var numbers = [10, 2, 3, 14, 15, 6, 37, 8, 9]
+// numbers.sort(function (x, y) {
+//     return x - y
+// })
+// console.log(numbers[numbers.length - 2])
 
 // 6. Write a js program to count total number of even and odd elements in an array.
+// var numbers = [10, 2, 3, 14, 15, 6, 37, 8, 9]
 
+// numbers.sort(function (x, y) {
+//     return x - y
+// })
+// var secNumber = numbers.filter(function (even) {
+//     return even % 2 == 0;
+    
+// })
+// console.log("Even Numebrs",secNumber);
 
-
+// var oddNumber = numbers.filter(function (odd) {
+//     return odd % 2 !== 0;
+    
+// })
+// console.log("Odd Numebrs",oddNumber);
 // 7. Write a js program to count total number of negative elements in an array.
 
 // var ary = [1,2,4,3,-3,2,-5,-3,-2,-7]
@@ -89,20 +107,20 @@
 // var numbers = [10,2,3,14,15,6,37,8,9]
 // console.log("First Array",numbers);
 // var copyArray = numbers.map(function(x){
-//     return x
+//     return x 
 // })
 // console.log("Copy Array",copyArray);
 
 
-// 9. Write a js program to insert an element in an array.
-// var numbers = [10,2,6,4,9];
-// numbers.splice(3,1,3)
+// // 9. Write a js program to insert an element in an array.
+// var numbers = [10,2,6,4,9,21,4];
+// numbers.splice(3,0,3,21,1)
 // console.log(numbers);
 
 // 10. Write a js program to delete an element from an array at specified position.
 
 // var num = [10,2,6,4,9];
-// delete num[0]
+// num.pop()
 // console.log(num);
 
 // 11. Write a js program to count frequency of each element in an array.
