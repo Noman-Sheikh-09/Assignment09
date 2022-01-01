@@ -235,6 +235,138 @@
 //             console.log("invalid value");
 //             break;
 //     }
-
 // 24. Write a js program print total number of days in a month using switch case.
+// var day = parseInt(prompt("Enter Numebr"));
+// switch (day) {
+//     case 0:
+//         console.log("31 days");
+//         break;
 
+//         case 1:
+//         console.log("28 days");
+//         break;
+//         case 2:
+//         console.log("31 days");
+//         break;
+//         case 3:
+//         console.log("30 days");
+//         break;
+//         case 4:
+//         console.log("31 days");
+//         break;
+
+//         case 5:
+//         console.log("30 days");
+//         break;
+//         case 6:
+//         console.log("31 days");
+//         break;
+//         case 7:
+//         console.log("31 days");
+//         break;
+//         case 8:
+//         console.log("31 days");
+//         break;
+//         case 9:
+//         console.log("30 days");
+//         break;
+//         case 10:
+//         console.log("30 days");
+//         break;
+//         case 11:
+//         console.log("31 days");
+//         break;
+//         // case 12:
+//         // console.log("31 days");
+//         // break;
+
+//     default:
+//         console.log("Inavlid");
+//         break;
+// }
+
+// 25. Write a js program to check whether an alphabet is vowel or consonant using switch case.
+// var ch = prompt("Enter your Alphabet")
+// switch (ch=="a"  || ch=="i"  || ch=="e"  || ch=="u"  || ch=="o" ) {
+//     case true:
+//         console.log("Vowel");
+//         break;
+//         case false:
+//         console.log("Constant");
+//             break;
+//     default:
+// console.log("Invalid");
+//         break;
+// }
+// 
+
+// 26. Write a js program to find maximum between two numbers using switch case.
+// var num1 = parseInt(prompt("Enter First Number"));
+// var num2 = parseInt(prompt("Enter Second Numebr"));
+// // var num3 = [num1,num2];
+// switch (num1>num2) {
+//     case true:
+//       console.log("First is Greater");
+//       break;
+//       case false:
+//         console.log("Second is Greater");
+//         break;
+//     default:
+//         console.log("Numbers are Equal",);
+//         break;
+// }
+
+// 27. Write a js program to check whether a number is even or odd using switch case.
+// var num = parseInt(prompt("Enter Number"));
+// switch (num%2==0) {
+//     case true:
+//         console.log("Number is Even");
+//         break;
+
+//         case false:
+//         console.log("Number is Odd");
+//         break;
+//     default:
+//         console.log("Invalid");
+//         break;
+// }
+
+// 28. Write a js program to check whether a number is positive, negative or zero using switch case.
+// var num = parseInt(prompt("Enter Number"));
+// switch (num>0) {
+//     case true:
+//         console.log("Number is Positive");
+//         break;
+//         case false:
+//         console.log("Number is Negative");
+//         break;
+//     default:
+//         console.log("Invalid");
+//         break;
+// }
+// 29. Write a js program to find roots of a quadratic equation using switch case.
+
+// 30. Write a js program to create Simple Calculator using switch case.
+// var num1 = prompt("First Number");
+// var num2 = prompt("Second Number");
+// var operator = prompt("Enter Operator");
+// switch (operator) {
+//     case '+':
+//         var Sum = parseFloat(num1)+ parseFloat(num2)
+//         console.log(Sum);
+//         break;
+//         case '/':
+//         console.log(num1 / num2);
+//         break;
+
+//         case '-':
+//         console.log(num1 - num2);
+//         break;
+
+//         case '*':
+//         console.log(num1 * num2);
+//         break;
+//     default:
+//         console.log("Invalid something");
+//         break;
+// }
